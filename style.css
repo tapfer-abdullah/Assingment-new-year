@@ -1,3 +1,51 @@
+/* Font for whole website  */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Optional section  */
+/* Navigation bar  */
+.nav-bar{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 15px;
+    margin: auto;
+}
+.nav-title{
+    font-size: 25px;
+    color: #F15B22;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.nav-bar ul{
+    display: flex;
+    margin: auto;
+    
+     
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #322b2b;
+}
+.nav-bar li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.search{
+    margin: auto 0px;
+    margin-right: 20px;
+}
+.search input{
+    background-color: transparent;
+    border: 2px solid #737272;
+    border-radius: 5px;
+    padding: 5px 5px;
+    height: 28px;
+    width: 200px;
+}
+
 /* Header Section */
 .main-btn {
     font-weight: 600;
@@ -10,13 +58,17 @@
     height: 809px;
     background-size: cover;
     text-align: right;
-    margin-top: 0px;
+
+    /* To remove spaces at top and side  */
+    margin-top: -45px;
+    margin-left: -10px;
+    margin-right: -10px;
 
 
 }
 
 .header-title {
-    padding: 220px 177px 24px 850px;
+    padding: 15px 177px 24px 850px;
     color: #151414;
     font-size: 65px;
 }
@@ -27,13 +79,13 @@
 }
 
 .main-btn button {
-    margin: 0px 230px 170px 1175px;
+    margin: 0px 230px 170px 1194px;
     font-weight: 600px;
     font-size: 20px;
     color: #FFFFFF;
     width: 135px;
     height: 45px;
-    background-color: #f06143;
+    background-color:#F15B22;
     border: none;
     border-radius: 5px;
 }
@@ -73,17 +125,22 @@
     color: #444343;
     list-style: none;
 }
-ul li:before {
+.my-failure ul{
+    padding-inline-start: 0px;
+}
+
+/* learn from google  */
+.my-failureo-list li:before {
     content: '✓';
     color: #3ac977;
-  }
+}
 
 /* My plans  */
 .my-plans {
     /* display: flex; */
     text-align: center;
-    justify-content: space-around;
-    margin: 130px 230px;
+    /* justify-content: space-around; */
+    margin: 130px 20px;
 }
 
 .my-plans-content {
@@ -113,17 +170,22 @@ ul li:before {
 }
 
 .my-plans-elements {
-    margin-left: 130px;
+    margin-left: 117px;
 }
 
 /* 3rd / call now section */
 .callnow-section {
-    background-image: url(images/watch.png);
-    background-repeat: no-repeat;
-    width: 1130px;
-    height: 340px;
-    margin: 130px 230px;
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 130px 190px;
     border-radius: 10px;
+    width: 1140px;
+    height: 300px;
+
+    /* leaen from google and figma file  */
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
 }
 
 .callnow-title {
@@ -153,6 +215,8 @@ ul li:before {
 .footer {
     display: flex;
     background: #151414;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 /* footer messege section  */
@@ -186,7 +250,6 @@ ul li:before {
     margin-top: 32px;
     margin-right: 20px;
 }
-
 
 
 .subscribe {
