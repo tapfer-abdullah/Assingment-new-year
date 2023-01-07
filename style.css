@@ -54,7 +54,7 @@
 }
 
 .header-section {
-    background-image: url(/images/banner/banner1.png);
+    background: url("images/banner/banner2.png");
     height: 809px;
     background-size: cover;
     text-align: right;
